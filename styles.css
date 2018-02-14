@@ -91,9 +91,7 @@ body {
 	text-align: center;
 	width: 100%;
 }
-.thumb-boris {
-	padding-bottom: 85px;
-}
+
 .presentacion span {
 
 }
@@ -118,7 +116,7 @@ body {
 }
 [data-anchor="slide-1"] .container {
 	background-color:rgba(0,0,0,0.3);
-	padding: 20px 0px 35px;
+	
 }
 
 .redes-icons .fa-twitter-square {
@@ -147,7 +145,7 @@ body {
 }
 .fp-slide .container {
 	background-color:rgba(0,0,0,0.3);
-	padding: 20px 0px 35px;
+	
 }
 [data-anchor="slide-2"] {
 	background-image:url(img/background-dev.jpg);
@@ -581,6 +579,12 @@ Main Components
 .seccion-5 h3 {
 	text-align: center;
 }
+.container-fluid>.navbar-collapse, 
+.container-fluid>.navbar-header, 
+.container>.navbar-collapse, 
+.container>.navbar-header {
+  background-color: #fff;
+}
 
 @keyframes fillup {
   from { stroke-dasharray: 0 100; }
@@ -603,5 +607,8 @@ Main Components
   }
   .presentacion {
      background-color: rgba(239, 238, 238, 0.7);
+  }
+  h1, .h1 {
+    font-size: 30px;
   }
 }
