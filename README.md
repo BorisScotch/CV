@@ -1,6 +1,6 @@
 <h1>CV</h1>
 
-a href="https://borisscotch.github.io/CV/" target="_blank">https://borisscotch.github.io/CV/</a>
+<a href="https://borisscotch.github.io/CV/" target="_blank">https://borisscotch.github.io/CV/</a>
 
 <h3>Branch</h3>
 
