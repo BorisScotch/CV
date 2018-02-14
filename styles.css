@@ -589,10 +589,19 @@ Main Components
 .html-bars {
   display: none;
 }
-
+.navbar-toggle .icon-bar {
+  background-color: #000000;
+}
 @media (max-width: 667px) {
   svg.img-center.img-responsive {
     margin: 0 15px;
     max-width: 95%;
+  }
+  .presentacion span#type {
+
+
+  }
+  .presentacion {
+     background-color: rgba(239, 238, 238, 0.7);
   }
 }
