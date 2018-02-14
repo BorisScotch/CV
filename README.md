@@ -4,4 +4,4 @@
 
 <h3>Branch</h3>
 
-<a href="https://github.com/BorisScotch/CV/blob/gh-pages" target="_self">https://github.com/BorisScotch/CV/blob/gh-pages/README.md</a>
+<a href="hhttps://github.com/BorisScotch/CV/tree/gh-pages" target="_self">https://github.com/BorisScotch/CV/tree/gh-pages</a>
