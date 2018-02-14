@@ -1,0 +1,214 @@
+/*  Animaciones CSS  */
+	.seccion-2.active #slide1.active .path.path-cien,
+	.seccion-2.active #slide2.active .path.path-cien,
+	.seccion-2.active #slide3.active .path.path-cien {
+  		stroke-dasharray: 0 911;
+  		animation: cien 3s linear 1;
+  		animation-fill-mode: forwards;
+	}
+	.seccion-2.active #slide1.active .path.path-noventa,
+	.seccion-2.active #slide2.active .path.path-noventa,
+	.seccion-2.active #slide3.active .path.path-noventa {
+  		stroke-dasharray: 0 911;
+  		animation: noventa 3s linear 1;
+  		animation-fill-mode: forwards;
+	}
+	.seccion-2.active #slide1.active .path.path-ochenta,
+	.seccion-2.active #slide2.active .path.path-ochenta,
+	.seccion-2.active #slide3.active .path.path-ochenta {
+  		stroke-dasharray: 0 911;
+  		animation: ochenta 3s linear 1;
+  		animation-fill-mode: forwards;
+	}
+	.seccion-2.active #slide1.active .path.path-setentacinco,
+	.seccion-2.active #slide2.active .path.path-setentacinco,
+	.seccion-2.active #slide3.active .path.path-setentacinco {
+  		stroke-dasharray: 0 911;
+  		animation: setentacinco 3s linear 1;
+  		animation-fill-mode: forwards;
+	}
+	.seccion-2.active #slide1.active .path.path-sesenta,
+	.seccion-2.active #slide2.active .path.path-sesenta,
+	.seccion-2.active #slide3.active .path.path-sesenta {
+  		stroke-dasharray: 0 911;
+  		animation: sesenta 3s linear 1;
+  		animation-fill-mode: forwards;
+	}
+	.seccion-2.active #slide1.active .path.path-cincuenta,
+	.seccion-2.active #slide2.active .path.path-cincuenta,
+	.seccion-2.active #slide3.active .path.path-cincuenta {
+  		stroke-dasharray: 0 911;
+  		animation: cincuenta 3s linear 1;
+  		animation-fill-mode: forwards;
+	}
+	.seccion-2 #slide1 svg text,
+	.seccion-2 #slide2 svg text,
+	.seccion-2 #slide3 svg text {
+		opacity: 0;
+		transition: all 1s linear;
+	}
+	.seccion-2.active #slide1.active svg text,
+	.seccion-2.active #slide2.active svg text,
+	.seccion-2.active #slide3.active svg text {
+		opacity: 1;
+		transition-delay: 2.5s;
+	}
+	
+	@keyframes cien {
+	  from {
+	    stroke-dasharray: 0 911; 
+	  }
+	  to {
+	    stroke-dasharray: 911 0; /* 100% */
+	  }
+	}
+	@keyframes noventa {
+	  from {
+	    stroke-dasharray: 0 911; 
+	  }
+	  to {
+	    stroke-dasharray:  819.9 91.1; /* 90% */
+	  }
+	}
+	@keyframes ochenta {
+	  from {
+	    stroke-dasharray: 0 911; 
+	  }
+	  to {
+	    stroke-dasharray:  728.8 182.2; /* 90% */
+	  }
+	}
+	@keyframes setentacinco {
+	  from {
+	    stroke-dasharray: 0 911; 
+	  }
+	  to {
+	    stroke-dasharray: 683.25 227.75; /* 75% */
+	  }
+	}
+	@keyframes sesenta {
+	  from {
+	    stroke-dasharray: 0 911; 
+	  }
+	  to {
+	    stroke-dasharray: 546.6 364.4; /* 75% */
+	  }
+	}
+	@keyframes cincuenta {
+	  from {
+	    stroke-dasharray: 0 911; 
+	  }
+	  to {
+	    stroke-dasharray: 455.5 455.5; /* 50% */
+	  }
+	}
+	
+	/*svg text {
+		font-weight: 900;
+		fill: #686868;
+		font-size: 75;
+	}*/
+
+
+/* NUEVOS GRAFICOS DE BARRA */ 
+.seccion-2 #slide1 svg rect.rect-cien,
+.seccion-2 #slide1 svg rect.rect-noventa,
+.seccion-2 #slide2 svg rect.rect-sesenta,
+.seccion-2 #slide3 svg rect.rect-cien,
+.seccion-2 #slide3 svg rect.rect-noventa,
+.seccion-2 #slide3 svg rect.rect-sesenta,
+.seccion-2 #slide3 svg rect.rect-ochenta,
+.seccion-2 #slide4 svg rect.rect-cien,
+.seccion-2 #slide4 svg rect.rect-noventa,
+.seccion-2 #slide4 svg rect.rect-sesenta,
+.seccion-2 #slide4 svg rect.rect-ochenta {
+	display: none;
+	
+}
+.seccion-2.active #slide1.active svg rect.rect-cien,
+.seccion-2.active #slide2.active svg rect.rect-cien {
+	height: 500px;	
+	display: block;
+	animation: rect-cien linear 4s;
+}
+.seccion-2.active #slide1.active svg rect.rect-noventa,
+.seccion-2.active #slide2.active svg rect.rect-noventa,
+.seccion-2.active #slide3.active svg rect.rect-noventa,
+.seccion-2.active #slide4.active svg rect.rect-noventa {
+	height: 450px;	
+	display: block;
+	animation: rect-noventa linear 4s;
+}
+.seccion-2.active #slide1.active svg rect.rect-ochenta,
+.seccion-2.active #slide2.active svg rect.rect-ochenta,
+.seccion-2.active #slide3.active svg rect.rect-ochenta,
+.seccion-2.active #slide4.active svg rect.rect-ochenta {
+	height: 400px;	
+	display: block;
+	animation: rect-ochenta linear 4s;
+}
+.seccion-2.active #slide1.active svg rect.rect-sesenta,
+.seccion-2.active #slide2.active svg rect.rect-sesenta,
+.seccion-2.active #slide3.active svg rect.rect-sesenta,
+.seccion-2.active #slide4.active svg rect.rect-sesenta {
+	height: 300px;	
+	display: block;
+	animation: rect-sesenta linear 4s;
+}
+
+.seccion-2 #slide1 svg text.htmlcien,
+.seccion-2 #slide2 svg text.htmlcien {
+	fill:white;
+	opacity: 0;
+	transition: all 1s linear;
+}
+.seccion-2.active #slide1.active svg text.htmlcien,
+.seccion-2.active #slide2.active svg text.htmlcien,
+.seccion-2.active #slide3.active svg text.htmlcien {
+	opacity: 1;
+	transition-delay: 4s;
+}
+.svg-text {
+	font-size: 14px;
+	fill: #fff;
+}
+
+
+svg text.html {
+	fill: white;
+}
+@keyframes rect-cien {
+	from {
+		height: 0;
+	}
+	to {
+		height: 500;
+	}
+}
+
+@keyframes rect-noventa {
+	from {
+		height: 0;
+	}
+	to {
+		height: 450;
+	}
+}
+@keyframes rect-ochenta {
+	from {
+		height: 0;
+	}
+	to {
+		height: 400;
+	}
+}
+@keyframes rect-sesenta {
+	from {
+		height: 0;
+	}
+	to {
+		height: 300;
+	}
+}
+
+

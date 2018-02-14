@@ -1,0 +1,25 @@
+<svg class="img-center img-responsive" version="1.1" xmlns="http://www.w3.org/2000/svg"
+      width="500" height="550" viewBox="0 0 500 550">
+            <g transform="scale(1,-1) translate(0,-500)">
+              <rect class="rect-cien" x="50" y="0" fill="#f00" width="100" height="500" />
+
+              <rect class="rect-noventa" x="200" y="0" fill="#f70" width="100" height="450" />
+
+              <rect class="rect-cien" x="350" y="0" fill="#ec0" width="100" height="500" />
+
+            </g>
+            <g class="svg-text">
+              <text class="html" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 53 460)">COMMUNITY</text>
+              <text class="html" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 60 480)">MANAGER</text>
+              <text class="htmlcien" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 80 20)">100%</text>
+              <text class="html" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 232 460)">CRM</text>
+              <text class="html" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 210 480)">DATABASE</text>
+              <text class="htmlcien" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 235 70)">90%</text>
+              <text class="html" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 379 400)">HTML</text>
+              <text class="html" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 369 420)">MAILING </text>
+              <text class="html" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 382 440)">FULL </text>
+              <text class="html" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 375 460)">CROSS </text>
+              <text class="html" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 355 480)">PLATAFORM</text>
+              <text class="htmlcien" fill="#ffffff" style="color:#FFF" transform="matrix(1 0 0 1 382 20)">100%</text>
+            </g>
+          </svg>
